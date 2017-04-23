@@ -1,0 +1,21 @@
+/* Your CSS goes here 
+I did not at the bootstrap to this program. We were unable to go over
+it before this assignment was given to us*/
+
+input[type=text] {
+	background-color: yellow;
+}
+
+input[type=number]{
+	background-color: yellow;
+}
+
+#instructions {
+	border-style: solid;
+	border-width: 2px;
+
+}
+
+#last {
+	font-weight: bold;
+}

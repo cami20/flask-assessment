@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="static/styles_cp.css">
+    <title>Application Form</title>
+</head>
+<body>
+
+<!-- your html goes here -->
+	<h1>Job Application</h1>
+	<div id="instructions">
+		Please fill out the form below so we can get to know you better!
+		We will need your first and last name. The salary your salary requirement.
+		Then select the position that you are applying for.
+	</div>
+	<br>
+
+	<form action="/application-success.html", method="POST">
+		First Name: <input type="text" name="first" required><br>
+		Last Name: <input id="last" type="text" name="last" required><br>
+		Salary Requirement: <input type="number" name="salary" required><br>
+
+		Please Pick the Job You are Applying for:
+		<select name="job">
+			<option value="Software Engineer">Software Engineer</option>
+			<option value="QA Engineer">QA Engineer</option>
+			<option value="Product Manager">Product Manager</option>
+		</select><br>
+		<input type="submit">
+	</form>
+
+</body>
+</html>
